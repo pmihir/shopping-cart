@@ -1,0 +1,362 @@
+[
+    {
+        "category": "Laptop",
+        "name": "HP 14 PENTIUM GOLD(4GB/256GB/I5/2GB)",
+        "discount": "5",
+        "netPrice": "37990",
+        "price": "43000",
+        "image": "../../assets/Electronics/hp-14.jpg",
+        "description": "XYZ",
+        "brand": "HP"
+    },
+    {
+        "category": "Laptop",
+        "name": "DELL VOSTRO 3581(I3/4GB/1TB HDD,WINDOWS 10)",
+        "discount": "5",
+        "netPrice": "27,989 ",
+        "price": "39,097",
+        "image": "../../assets/Electronics/dell-vostro-3581.jpg",
+        "description": "XYZ",
+        "brand": "DELL"
+    },
+    {
+        "category": "Laptop",
+        "name": "Lenovo Ideapad S145 7th Gen(4GB/ 1TB/Windows 10)",
+        "discount": "5",
+        "netPrice": "37990",
+        "price": "43000",
+        "image": "../../assets/Electronics/lenovo s-145.jpg",
+        "description": "XYZ",
+        "brand": "LENOVO"
+    },
+    {
+        "category": "Laptop",
+        "name": "HP Omen core i7th(8GB/128GB SSD/4GB Graphics)",
+        "discount": "5",
+        "netPrice": "84990",
+        "price": "110000",
+        "image": "../../assets/Electronics/HP-omen.jpg",
+        "description": "XYZ",
+        "brand": "HP"
+    },
+    {
+        "category": "Laptop",
+        "name": "Dell Inspiron 5370(Core i7/8GB/256GB/GB Graphics)",
+        "discount": "5",
+        "netPrice": "61990",
+        "price": "84000",
+        "image": "../../assets/dell-inspiron-5370.jpg",
+        "description": "XYZ",
+        "brand": "DELL"
+    },
+    {
+        "category": "Laptop",
+        "name": "Dell Inspiron 5584(8GB/1TB HDD/4GB Graphics)",
+        "discount": "5",
+        "netPrice": "77990",
+        "price": "90999",
+        "image": "../../assets/dell-inspiron-5584.jpg",
+        "description": "XYZ",
+        "brand": "DELL"
+    },
+    {
+        "category": "Smartphone",
+        "name": "Motorola One Macro",
+        "discount": "5",
+        "netPrice": "21999",
+        "price": "24999",
+        "image": "../../assets/Electronics/moto_one.jpg",
+        "description": "XYZ",
+        "brand": "MOTOROLA"
+    },
+    {
+        "category": "Smartphone",
+        "name": "Oppo F11(Fluorite Purple,6GB RAM)",
+        "discount": "5",
+        "netPrice": "14,990",
+        "price": "23,990",
+        "image": "../../assets/Electronics/oppo_F11.jpg",
+        "description": "XYZ",
+        "brand": "OPPO"
+    },
+    {
+        "category": "Smartphone",
+        "name": "Redmi Note 8(Neptune Blue,6GB RAM)",
+        "discount": "5",
+        "netPrice": "13999",
+        "price": "15999",
+        "image": "../../assets/Electronics/redmi_note8.png",
+        "description": "XYZ",
+        "brand": "REDMI"
+    },
+    {
+        "category": "Smartphone",
+        "name": "Xiaomi Mi A3(Just Blue,4GB RAM)",
+        "discount": "5",
+        "netPrice": "12999",
+        "price": "14999",
+        "image": "../../assets/Electronics/redmi1.jpg",
+        "description": "XYZ",
+        "brand": "REDMI"
+    },
+    {
+        "category": "Smartphone",
+        "name": "Samsung Galaxy Note10 Lite(Aura Black)",
+        "discount": "5",
+        "netPrice": "41999",
+        "price": "45000",
+        "image": "../../assets/samsung_note10.jpg",
+        "description": "XYZ",
+        "brand": "SAMSUNG"
+    },
+    {
+        "category": "Earphones & Headphones",
+        "name": "JBL 2460 Extra Bass wireless & Mic",
+        "discount": "5",
+        "netPrice": "2399",
+        "price": "3499",
+        "image": "../../assets/Electronics/jbl_wireless.jpg",
+        "description": "XYZ",
+        "brand": "JBL"
+    },
+    {
+        "category": "Earphones & Headphones",
+        "name": "Boat Airdopes 201 True wireless earbuds",
+        "discount": "5",
+        "netPrice": "1999",
+        "price": "3999",
+        "image": "../../assets/Electronics/boat_airdopes.jpg",
+        "description": "XYZ",
+        "brand": "BOAT"
+    },
+    {
+        "category": "Earphones & Headphones",
+        "name": "Brainwavz Delta in Earbuds Black",
+        "discount": "5",
+        "netPrice": "2399",
+        "price": "2899",
+        "image": "../../assets/Electronics/brainwavez_earphones.jpg",
+        "description": "XYZ",
+        "brand": "BOAT"
+    },
+    {
+        "category": "Camera",
+        "name": "Nikon D5300 Dual Lens(18-55MM/3.5-5.6G)",
+        "discount": "5",
+        "netPrice": "49990",
+        "price": "66450",
+        "image": "../../assets/Electronics/nikon-d5300.jpg",
+        "description": "XYZ",
+        "brand": "NIKON"
+    },
+    {
+        "category": "Camera",
+        "name": "Canon EOS200D | DSLR CAMERA 55-220MM",
+        "discount": "5",
+        "netPrice": "57999",
+        "price": "65995",
+        "image": "../../assets/Electronics/canon-200d.jpg",
+        "description": "XYZ",
+        "brand": "CANON"
+    },
+    {
+        "category": "Camera",
+        "name": "Canon M50 MirrorLess Single Lens EF-M mm STM",
+        "discount": "5",
+        "netPrice": "47990",
+        "price": "51995",
+        "image": "../../assets/Electronics/canon-m50.jpg",
+        "description": "XYZ",
+        "brand": "CANON"
+    },
+    {
+        "category": "Camera",
+        "name": "Sony Aplha ILCE-7M2K 28-70 MM LENS",
+        "discount": "5",
+        "netPrice": "84990",
+        "price": "90990",
+        "image": "../../assets/Electronics/sony-alpha.jpg",
+        "description": "XYZ",
+        "brand": "SAMSUNG"
+    },
+    {
+        "category": "Television",
+        "name": "MI TV A4 Pro(32 inches) HD Android LED TV",
+        "discount": "5",
+        "netPrice": "12499",
+        "price": "14999",
+        "image": "../../assets/TV & Appliances/MI_TV_A4.jpg",
+        "description": "XYZ",
+        "brand": "MI"
+    },
+    {
+        "category": "Television",
+        "name": "Vu 80 cm(32 inches) HD UltraAndroid LED TV",
+        "discount": "5",
+        "netPrice": "11899",
+        "price": "19000",
+        "image": "../../assets/TV & Appliances/vu_altra.jpg",
+        "description": "XYZ",
+        "brand": "VU"
+    },
+    {
+        "category": "Television",
+        "name": "TCL 107.86 cm(43 inches) Full HD LED Smart TV",
+        "discount": "5",
+        "netPrice": "21999",
+        "price": "36990",
+        "image": "../../assets/TV & Appliances/Tcl_HD.png",
+        "description": "XYZ",
+        "brand": "TCL"
+    },
+    {
+        "category": "Television",
+        "name": "Samusng 80 cm (32 inches) Series HDLED Smart Tv",
+        "discount": "5",
+        "netPrice": "14999",
+        "price": "20990",
+        "image": "../../assets/TV & Appliances/samsung_series.jpg",
+        "description": "XYZ",
+        "brand": "Samsung"
+    },
+    {
+        "category": "Television",
+        "name": "Samsung 80 cm (32 inches) Series 4 HD Smart TV",
+        "discount": "5",
+        "netPrice": "17998",
+        "price": "18999",
+        "image": "../../assets/TV & Appliances/samsung_series_4.jpg",
+        "description": "XYZ",
+        "brand": "Samsung"
+    },
+    {
+        "category": "Air Conditioners",
+        "name": "Whirlpool 08.Ton 3 Star Inverter Split AC",
+        "discount": "5",
+        "netPrice": "23490",
+        "price": "37000",
+        "image": "../../assets/TV & Appliances/whirlpool_0.8_inverter.jpg",
+        "description": "XYZ",
+        "brand": "whirlpool"
+    },
+    {
+        "category": "Air Conditioners",
+        "name": "Voltas 1.5 Ton 3 Star Split AC(Copper White)",
+        "discount": "5",
+        "netPrice": "29999",
+        "price": "52690",
+        "image": "../../assets/TV & Appliances/voltas_1.5.jpg",
+        "description": "XYZ",
+        "brand": "Voltas"
+    },
+    {
+        "category": "Air Conditioners",
+        "name": "Mistubishi Heavy Duty SRK18YLS Split Inverter",
+        "discount": "5",
+        "netPrice": "53699",
+        "price": "260990",
+        "image": "../../assets/TV & Appliances/mistubishi.jpg",
+        "description": "XYZ",
+        "brand": "Mistubishi"
+    },
+    {
+        "category": "Air Conditionars",
+        "name": "Samsung 1.5 Ton 3 Star Inverter Split AC(Starflower)",
+        "discount": "5",
+        "netPrice": "33999",
+        "price": "56000",
+        "image": "../../assets/TV & Appliances/samsung_ac.png",
+        "description": "XYZ",
+        "brand": "Samusng"
+    },
+    {
+        "category": "Refrigerator",
+        "name": "Whirlpool 190L 5 Star Single Door(Inverter Compressor)",
+        "discount": "5",
+        "netPrice": "15490",
+        "price": "19700",
+        "image": "../../assets/TV & Appliances/whirlpool_fridge.jpg",
+        "description": "XYZ",
+        "brand": "Whirlpool"
+    },
+    {
+        "category": "Refrigerator",
+        "name": "Samsung 198L 5 Star Inverter Direct Cool Single door",
+        "discount": "5",
+        "netPrice": "17490",
+        "price": "21990",
+        "image": "../../assets/TV & Appliances/samsung_fridge.jpg",
+        "description": "XYZ",
+        "brand": "Samsung"
+    },
+    {
+        "category": "Refrigerator",
+        "name": "LG 260 Five Star Frost Free Double Door Refrigerator",
+        "discount": "5",
+        "netPrice": "24990",
+        "price": "30690",
+        "image": "../../assets/TV & Appliances/lg_fridge.png",
+        "description": "XYZ",
+        "brand": "LG"
+    },
+    {
+        "category": "Refrigerator",
+        "name": "LG 234 Four Star Direct Cool Single Door Refrigerator",
+        "discount": "5",
+        "netPrice": "19899",
+        "price": "23490",
+        "image": "../../assets/TV & Appliances/lg_234_fridge.png",
+        "description": "XYZ",
+        "brand": "LG"
+    },
+    {
+        "category": "Refrigerator",
+        "name": "Whirlpool 190L 4 Star Inverter Direct cool Single Door",
+        "discount": "5",
+        "netPrice": "14990",
+        "price": "19000",
+        "image": "../../assets/TV & Appliances/whirlpool_fridge.jpg",
+        "description": "XYZ",
+        "brand": "Whirlpool"
+    },
+    {
+        "category": "Refrigerator",
+        "name": "AmazonBasics 690L Frost Side-by-Side Refigerator",
+        "discount": "5",
+        "netPrice": "59999",
+        "price": "89999",
+        "image": "../../assets/TV & Appliances/amazonbasics.jpg",
+        "description": "XYZ",
+        "brand": "AmazonBasics"
+    },
+    {
+        "category": "Washing Machine",
+        "name": "Samsung 6.0KG Fully Automatic Star Front Loading",
+        "discount": "5",
+        "netPrice": "22800",
+        "price": "26990",
+        "image": "../../assets/TV & Appliances/samsung_washing_machine.jpg",
+        "description": "XYZ",
+        "brand": "Samsung"
+    },
+    {
+        "category": "Washing Machine",
+        "name": "Whirlpool 6.2KG Fully Automatic Top Loading ",
+        "discount": "5",
+        "netPrice": "12990",
+        "price": "16800",
+        "image": "../../assets/TV & Appliances/whirpool_washing_machine",
+        "description": "XYZ",
+        "brand": "Whirlpool"
+    },
+    {
+        "category": "Washing Machine",
+        "name": "LG 7 KG Star Semi-Automatic Top Loading",
+        "discount": "5",
+        "netPrice": "10917",
+        "price": "13490",
+        "image": "../../assets/TV & Appliances/lg_washing_machine.png",
+        "description": "XYZ",
+        "brand": "LG"
+    }
+]
