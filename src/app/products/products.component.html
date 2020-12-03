@@ -1,0 +1,94 @@
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <h3>Products</h3>
+        </div>
+        <div class="row">
+            <div>
+                <input class="form-control" type="text" [(ngModel)]="searchText" style="width: 200px;"
+                    placeholder="Search Product" aria-label="Search">
+            </div>
+            <div class="create-product edit-btn">
+                <button class="btn btn-primary edit-btn" data-toggle="modal" data-target="#bd-example-modal-lg"
+                    (click)="showModal()">Create Product</button>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-3" *ngFor="let product of displayProduct | search: searchText">
+                <div class="product">
+                    <div class="product-img">
+                        <img src="{{product.image}}" style="width: 100%;" alt="">
+                    </div>
+                    <div class="product-body">
+                        <p class="product-category">{{ product.category }}</p>
+                        <h3 class="product-name" [routerLink]="['/product-detail',product._id]"><a>{{
+                                product.name
+                              }}</a></h3>
+                        <h4 class="product-price">{{ product.netPrice }}
+                            <del class="product-old-price">{{ product.price }}</del>
+                        </h4>
+                        <div class="product-btns">
+                            <button class="btn btn-primary edit-btn" data-toggle="modal"
+                                data-target="#bd-example-modal-lg" (click)="updateProductDetails(product)">Edit
+                                Product</button>
+                            <button class="btn btn-primary delete-btn" (click)="deleteProduct(product._id)">Delete
+                                Product</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="store-filter clearfix">
+                <span>Showing {{ pager.startIndex+1 }}-{{pager.endIndex+1}} products</span>
+                <ul class="store-pagination">
+                    <li [ngClass]="{ active: selectedIndex === i }" (click)="setIndex(i)"
+                        *ngFor="let page of pager.pages; let i = index">
+                        <a (click)="setPage(page)">{{ page }}</a>
+                    </li>
+                    <!-- <li><a href="#"><i class="fa fa-angle-right"></i></a></li> -->
+                </ul>
+            </div>
+            <div class="modal fade" [class.show]="displayBasic" id="bd-example-modal-lg" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" #closebutton>
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="review-form">
+                                <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)" class="review-form">
+                                    <input class="input" type="text" formControlName="name" placeholder="Name" />
+                                    <input class="input" type="text" formControlName="category"
+                                        placeholder="Category" />
+                                    <input class="input" type="text" formControlName="discount"
+                                        placeholder="Discount" />
+                                    <input class="input" type="text" formControlName="netPrice"
+                                        placeholder="Net Price" />
+                                    <input class="input" type="text" formControlName="price" placeholder="Price" />
+                                    <input class="input" type="text" formControlName="description"
+                                        placeholder="Description" />
+                                    <input class="input" type="text" formControlName="brand" placeholder="Brand" />
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                        <button type="submit" style="background-color: #d10024; border: none"
+                                            class="btn btn-primary" id="closeModal">
+                                            Submit
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
