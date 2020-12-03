@@ -39,9 +39,35 @@ router.post('/login', (req, res, next) => {
 router.get('/productData', authenticateJWT, (req, res, next) => {
     console.log(req);
     console.log("after jwt authorization");
-    model.find({}, { _id: 0 }).then((prodcuts) => {
+    model.find({}).then((prodcuts) => {
         res.json(prodcuts);
-    })
+    }).catch((err) => next(err));
+})
+
+router.post('/addProduct', (req, res, next) => {
+    console.log(req.body);
+    model.insertMany(req.body).then((productData) => {
+        res.json(productData);
+    }).catch((err) => next(err));
+})
+
+router.put('/editProductDetail', (req, res, next) => {
+    console.log(req.body);
+    model.findByIdAndUpdate(req.body._id, req.body).then((updatedData) => {
+        res.json(updatedData);
+    }).catch((err) => next(err));
+})
+
+router.delete('/deleteProduct', (req, res, next) => {
+    model.findByIdAndRemove(req.query.productId).then((updatedData) => {
+        res.json(updatedData);
+    }).catch((err) => next(err));
+})
+
+router.get('/productDetail', (req, res, next) => {
+    model.findById(req.query.productId).then((productData) => {
+        res.json(productData);
+    }).catch((err) => next(err));
 })
 
 module.exports = router;

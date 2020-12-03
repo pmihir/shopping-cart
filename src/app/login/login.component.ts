@@ -33,7 +33,6 @@ export class LoginComponent implements OnInit {
       password: this.loginForm.value.password
     }
     this.commonService.login(loginData).subscribe((res) => {
-      console.log(res)
       if (res.success == true) {
         sessionStorage.setItem("token", res.token);
         sessionStorage.setItem("userId", res.user);

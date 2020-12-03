@@ -21,8 +21,37 @@ export class CommonService {
     return this.http.post("http://localhost:3000/login", userData) as Observable<any>;
   }
 
+  getToken() {
+    let token = sessionStorage.getItem("token");
+    if (token) {
+      return token;
+    }
+  }
+
   getProductDetails() {
     let token = sessionStorage.getItem("token");
-    return this.http.get("http://localhost:3000/productData", { headers: { Authorization: `Bearer ${token}` } }) as Observable<any>;
+    return this.http.get("http://localhost:3000/productData", { headers: { Authorization: `Bearer ${this.getToken()}` } }) as Observable<any>;
+  }
+
+  addProduct(productData: any) {
+    console.log(productData);
+    return this.http.post("http://localhost:3000/addProduct", productData) as Observable<any>;
+  }
+
+  editProductDetail(productData: any) {
+    console.log(productData);
+    return this.http.put("http://localhost:3000/editProductDetail", productData) as Observable<any>;
+  }
+
+  deleteProduct(productId: any) {
+    return this.http.delete("http://localhost:3000/deleteProduct", {
+      params: { productId: productId }
+    }) as Observable<any>;
+  }
+
+  productDetail(productId: any) {
+    return this.http.get("http://localhost:3000/productDetail", {
+      params: { productId: productId }
+    }) as Observable<any>;
   }
 }
